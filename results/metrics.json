@@ -1,125 +1,2261 @@
 {
   "static_seeks": {
-    "FCFS": 6889,
-    "SSTF": 2248,
-    "SCAN": 3562,
-    "CSCAN": 4336
+    "FCFS": 7768,
+    "SSTF": 2355,
+    "SCAN": 3129,
+    "CSCAN": 4502
   },
-  "learned_seek": 2275,
+  "learned_seek": 2355,
   "history": [
     {
       "step": 0,
       "chosen_alg": "FCFS",
-      "confidence": 1.0,
-      "seek_cost": 67
+      "confidence": 0.5454545454545454,
+      "seek_cost": 67,
+      "static_costs": {
+        "FCFS": 67,
+        "SSTF": 40,
+        "SCAN": 338,
+        "CSCAN": 385
+      },
+      "window_costs": {
+        "FCFS": 67,
+        "SSTF": 40,
+        "SCAN": 338,
+        "CSCAN": 385
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": false
     },
     {
       "step": 10,
       "chosen_alg": "FCFS",
       "confidence": 1.0,
-      "seek_cost": 30
+      "seek_cost": 30,
+      "static_costs": {
+        "FCFS": 30,
+        "SSTF": 57,
+        "SCAN": 57,
+        "CSCAN": 30
+      },
+      "window_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "oracle_best_alg": "FCFS",
+      "correct": true
     },
     {
       "step": 20,
       "chosen_alg": "FCFS",
       "confidence": 1.0,
-      "seek_cost": 30
+      "seek_cost": 30,
+      "static_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "window_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "oracle_best_alg": "FCFS",
+      "correct": true
     },
     {
       "step": 30,
       "chosen_alg": "FCFS",
       "confidence": 1.0,
-      "seek_cost": 30
+      "seek_cost": 30,
+      "static_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "window_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "oracle_best_alg": "FCFS",
+      "correct": true
     },
     {
       "step": 40,
       "chosen_alg": "FCFS",
       "confidence": 1.0,
-      "seek_cost": 30
+      "seek_cost": 30,
+      "static_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "window_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "oracle_best_alg": "FCFS",
+      "correct": true
     },
     {
       "step": 50,
       "chosen_alg": "FCFS",
       "confidence": 1.0,
-      "seek_cost": 30
+      "seek_cost": 30,
+      "static_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "window_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "oracle_best_alg": "FCFS",
+      "correct": true
     },
     {
       "step": 60,
       "chosen_alg": "SSTF",
-      "confidence": 1.0,
-      "seek_cost": 209
+      "confidence": 0.6666666666666666,
+      "seek_cost": 209,
+      "static_costs": {
+        "FCFS": 224,
+        "SSTF": 209,
+        "SCAN": 209,
+        "CSCAN": 228
+      },
+      "window_costs": {
+        "FCFS": 224,
+        "SSTF": 209,
+        "SCAN": 209,
+        "CSCAN": 228
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": true
     },
     {
       "step": 70,
-      "chosen_alg": "FCFS",
-      "confidence": 1.0,
-      "seek_cost": 30
+      "chosen_alg": "SSTF",
+      "confidence": 0.5555555555555556,
+      "seek_cost": 45,
+      "static_costs": {
+        "FCFS": 30,
+        "SSTF": 45,
+        "SCAN": 45,
+        "CSCAN": 30
+      },
+      "window_costs": {
+        "FCFS": 45,
+        "SSTF": 45,
+        "SCAN": 45,
+        "CSCAN": 45
+      },
+      "oracle_best_alg": "FCFS",
+      "correct": false
     },
     {
       "step": 80,
       "chosen_alg": "FCFS",
       "confidence": 1.0,
-      "seek_cost": 30
+      "seek_cost": 30,
+      "static_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "window_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "oracle_best_alg": "FCFS",
+      "correct": true
     },
     {
       "step": 90,
       "chosen_alg": "FCFS",
       "confidence": 1.0,
-      "seek_cost": 30
+      "seek_cost": 30,
+      "static_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "window_costs": {
+        "FCFS": 30,
+        "SSTF": 30,
+        "SCAN": 30,
+        "CSCAN": 30
+      },
+      "oracle_best_alg": "FCFS",
+      "correct": true
     },
     {
       "step": 100,
       "chosen_alg": "SSTF",
-      "confidence": 0.8427672955974843,
-      "seek_cost": 256
+      "confidence": 0.75,
+      "seek_cost": 256,
+      "static_costs": {
+        "FCFS": 570,
+        "SSTF": 256,
+        "SCAN": 273,
+        "CSCAN": 391
+      },
+      "window_costs": {
+        "FCFS": 570,
+        "SSTF": 256,
+        "SCAN": 273,
+        "CSCAN": 391
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": true
     },
     {
       "step": 110,
       "chosen_alg": "SSTF",
-      "confidence": 0.8427672955974843,
-      "seek_cost": 182
+      "confidence": 0.9523809523809523,
+      "seek_cost": 173,
+      "static_costs": {
+        "FCFS": 813,
+        "SSTF": 173,
+        "SCAN": 364,
+        "CSCAN": 390
+      },
+      "window_costs": {
+        "FCFS": 971,
+        "SSTF": 173,
+        "SCAN": 197,
+        "CSCAN": 392
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": true
     },
     {
       "step": 120,
       "chosen_alg": "SSTF",
-      "confidence": 0.8427672955974843,
-      "seek_cost": 172
+      "confidence": 0.9523809523809523,
+      "seek_cost": 169,
+      "static_costs": {
+        "FCFS": 528,
+        "SSTF": 169,
+        "SCAN": 169,
+        "CSCAN": 329
+      },
+      "window_costs": {
+        "FCFS": 690,
+        "SSTF": 169,
+        "SCAN": 169,
+        "CSCAN": 169
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": true
     },
     {
       "step": 130,
       "chosen_alg": "SSTF",
-      "confidence": 0.8427672955974843,
-      "seek_cost": 189
+      "confidence": 0.9523809523809523,
+      "seek_cost": 174,
+      "static_costs": {
+        "FCFS": 687,
+        "SSTF": 174,
+        "SCAN": 202,
+        "CSCAN": 397
+      },
+      "window_costs": {
+        "FCFS": 846,
+        "SSTF": 174,
+        "SCAN": 202,
+        "CSCAN": 397
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": true
     },
     {
       "step": 140,
       "chosen_alg": "SSTF",
-      "confidence": 0.8427672955974843,
-      "seek_cost": 169
+      "confidence": 0.9523809523809523,
+      "seek_cost": 175,
+      "static_costs": {
+        "FCFS": 807,
+        "SSTF": 175,
+        "SCAN": 175,
+        "CSCAN": 397
+      },
+      "window_costs": {
+        "FCFS": 981,
+        "SSTF": 175,
+        "SCAN": 175,
+        "CSCAN": 175
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": true
     },
     {
       "step": 150,
       "chosen_alg": "SSTF",
-      "confidence": 0.8427672955974843,
-      "seek_cost": 174
+      "confidence": 0.9523809523809523,
+      "seek_cost": 174,
+      "static_costs": {
+        "FCFS": 520,
+        "SSTF": 174,
+        "SCAN": 196,
+        "CSCAN": 395
+      },
+      "window_costs": {
+        "FCFS": 522,
+        "SSTF": 174,
+        "SCAN": 196,
+        "CSCAN": 395
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": true
     },
     {
       "step": 160,
       "chosen_alg": "SSTF",
-      "confidence": 0.8427672955974843,
-      "seek_cost": 188
+      "confidence": 0.9523809523809523,
+      "seek_cost": 190,
+      "static_costs": {
+        "FCFS": 1085,
+        "SSTF": 190,
+        "SCAN": 373,
+        "CSCAN": 389
+      },
+      "window_costs": {
+        "FCFS": 1087,
+        "SSTF": 190,
+        "SCAN": 373,
+        "CSCAN": 391
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": true
     },
     {
       "step": 170,
       "chosen_alg": "SSTF",
-      "confidence": 0.8427672955974843,
-      "seek_cost": 255
+      "confidence": 0.9523809523809523,
+      "seek_cost": 170,
+      "static_costs": {
+        "FCFS": 561,
+        "SSTF": 170,
+        "SCAN": 174,
+        "CSCAN": 174
+      },
+      "window_costs": {
+        "FCFS": 506,
+        "SSTF": 170,
+        "SCAN": 196,
+        "CSCAN": 395
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": true
     },
     {
       "step": 180,
       "chosen_alg": "SSTF",
-      "confidence": 0.8427672955974843,
-      "seek_cost": 174
+      "confidence": 0.9523809523809523,
+      "seek_cost": 174,
+      "static_costs": {
+        "FCFS": 787,
+        "SSTF": 174,
+        "SCAN": 200,
+        "CSCAN": 395
+      },
+      "window_costs": {
+        "FCFS": 787,
+        "SSTF": 174,
+        "SCAN": 367,
+        "CSCAN": 397
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": true
+    },
+    {
+      "step": 190,
+      "chosen_alg": "SSTF",
+      "confidence": 0.9523809523809523,
+      "seek_cost": 169,
+      "static_costs": {
+        "FCFS": 879,
+        "SSTF": 169,
+        "SCAN": 174,
+        "CSCAN": 392
+      },
+      "window_costs": {
+        "FCFS": 960,
+        "SSTF": 169,
+        "SCAN": 189,
+        "CSCAN": 391
+      },
+      "oracle_best_alg": "SSTF",
+      "correct": true
     }
-  ]
+  ],
+  "scenarios": {
+    "sequential": {
+      "static_seeks": {
+        "FCFS": 1219,
+        "SSTF": 1213,
+        "SCAN": 1517,
+        "CSCAN": 1549
+      },
+      "learned_seek": 1213,
+      "history": [
+        {
+          "step": 0,
+          "chosen_alg": "FCFS",
+          "confidence": 0.5454545454545454,
+          "seek_cost": 67,
+          "static_costs": {
+            "FCFS": 67,
+            "SSTF": 40,
+            "SCAN": 338,
+            "CSCAN": 385
+          },
+          "window_costs": {
+            "FCFS": 67,
+            "SSTF": 40,
+            "SCAN": 338,
+            "CSCAN": 385
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": false
+        },
+        {
+          "step": 10,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 57,
+            "SCAN": 57,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 20,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 30,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 40,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 50,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 60,
+          "chosen_alg": "SSTF",
+          "confidence": 0.6666666666666666,
+          "seek_cost": 209,
+          "static_costs": {
+            "FCFS": 224,
+            "SSTF": 209,
+            "SCAN": 209,
+            "CSCAN": 228
+          },
+          "window_costs": {
+            "FCFS": 224,
+            "SSTF": 209,
+            "SCAN": 209,
+            "CSCAN": 228
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 70,
+          "chosen_alg": "SSTF",
+          "confidence": 0.5555555555555556,
+          "seek_cost": 45,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 45,
+            "SCAN": 45,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 45,
+            "SSTF": 45,
+            "SCAN": 45,
+            "CSCAN": 45
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": false
+        },
+        {
+          "step": 80,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 90,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 100,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 110,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 120,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 130,
+          "chosen_alg": "SSTF",
+          "confidence": 1.0,
+          "seek_cost": 197,
+          "static_costs": {
+            "FCFS": 224,
+            "SSTF": 197,
+            "SCAN": 201,
+            "CSCAN": 228
+          },
+          "window_costs": {
+            "FCFS": 224,
+            "SSTF": 197,
+            "SCAN": 201,
+            "CSCAN": 228
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 140,
+          "chosen_alg": "SSTF",
+          "confidence": 0.5555555555555556,
+          "seek_cost": 57,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 57,
+            "SCAN": 57,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 57,
+            "SSTF": 57,
+            "SCAN": 57,
+            "CSCAN": 57
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": false
+        },
+        {
+          "step": 150,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 160,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 170,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 180,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 190,
+          "chosen_alg": "SSTF",
+          "confidence": 0.6666666666666666,
+          "seek_cost": 218,
+          "static_costs": {
+            "FCFS": 224,
+            "SSTF": 218,
+            "SCAN": 220,
+            "CSCAN": 228
+          },
+          "window_costs": {
+            "FCFS": 224,
+            "SSTF": 218,
+            "SCAN": 220,
+            "CSCAN": 228
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        }
+      ],
+      "confidence_analysis": {
+        "window_count": 20,
+        "accuracy": 0.85,
+        "mean_confidence_correct": 0.9607843137254901,
+        "mean_confidence_incorrect": 0.5521885521885522,
+        "confidence_gap": 0.4085957615369379,
+        "brier_score": 0.05685134169982655,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.6,
+            "count": 3,
+            "accuracy": 0.0,
+            "mean_confidence": 0.5521885521885522
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.8,
+            "count": 2,
+            "accuracy": 1.0,
+            "mean_confidence": 0.6666666666666666
+          },
+          {
+            "lower": 0.8,
+            "upper": 1.0,
+            "count": 15,
+            "accuracy": 1.0,
+            "mean_confidence": 1.0
+          }
+        ]
+      }
+    },
+    "random": {
+      "static_seeks": {
+        "FCFS": 14895,
+        "SSTF": 4132,
+        "SCAN": 4646,
+        "CSCAN": 7139
+      },
+      "learned_seek": 4132,
+      "history": [
+        {
+          "step": 0,
+          "chosen_alg": "SSTF",
+          "confidence": 0.75,
+          "seek_cost": 215,
+          "static_costs": {
+            "FCFS": 553,
+            "SSTF": 215,
+            "SCAN": 326,
+            "CSCAN": 387
+          },
+          "window_costs": {
+            "FCFS": 553,
+            "SSTF": 215,
+            "SCAN": 326,
+            "CSCAN": 387
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 10,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 191,
+          "static_costs": {
+            "FCFS": 1119,
+            "SSTF": 191,
+            "SCAN": 370,
+            "CSCAN": 376
+          },
+          "window_costs": {
+            "FCFS": 987,
+            "SSTF": 191,
+            "SCAN": 219,
+            "CSCAN": 397
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 20,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 179,
+          "static_costs": {
+            "FCFS": 1036,
+            "SSTF": 179,
+            "SCAN": 179,
+            "CSCAN": 168
+          },
+          "window_costs": {
+            "FCFS": 1036,
+            "SSTF": 179,
+            "SCAN": 179,
+            "CSCAN": 179
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 30,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 183,
+          "static_costs": {
+            "FCFS": 629,
+            "SSTF": 183,
+            "SCAN": 211,
+            "CSCAN": 395
+          },
+          "window_costs": {
+            "FCFS": 648,
+            "SSTF": 183,
+            "SCAN": 211,
+            "CSCAN": 395
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 40,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 182,
+          "static_costs": {
+            "FCFS": 859,
+            "SSTF": 182,
+            "SCAN": 182,
+            "CSCAN": 395
+          },
+          "window_costs": {
+            "FCFS": 906,
+            "SSTF": 182,
+            "SCAN": 182,
+            "CSCAN": 182
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 50,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 198,
+          "static_costs": {
+            "FCFS": 955,
+            "SSTF": 198,
+            "SCAN": 212,
+            "CSCAN": 396
+          },
+          "window_costs": {
+            "FCFS": 955,
+            "SSTF": 198,
+            "SCAN": 212,
+            "CSCAN": 391
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 60,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 177,
+          "static_costs": {
+            "FCFS": 465,
+            "SSTF": 177,
+            "SCAN": 177,
+            "CSCAN": 384
+          },
+          "window_costs": {
+            "FCFS": 478,
+            "SSTF": 177,
+            "SCAN": 177,
+            "CSCAN": 177
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 70,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 154,
+          "static_costs": {
+            "FCFS": 543,
+            "SSTF": 154,
+            "SCAN": 194,
+            "CSCAN": 380
+          },
+          "window_costs": {
+            "FCFS": 444,
+            "SSTF": 154,
+            "SCAN": 194,
+            "CSCAN": 364
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 80,
+          "chosen_alg": "SSTF",
+          "confidence": 0.75,
+          "seek_cost": 317,
+          "static_costs": {
+            "FCFS": 666,
+            "SSTF": 317,
+            "SCAN": 367,
+            "CSCAN": 394
+          },
+          "window_costs": {
+            "FCFS": 648,
+            "SSTF": 317,
+            "SCAN": 367,
+            "CSCAN": 379
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 90,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 189,
+          "static_costs": {
+            "FCFS": 672,
+            "SSTF": 189,
+            "SCAN": 189,
+            "CSCAN": 386
+          },
+          "window_costs": {
+            "FCFS": 701,
+            "SSTF": 189,
+            "SCAN": 189,
+            "CSCAN": 189
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 100,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 172,
+          "static_costs": {
+            "FCFS": 1066,
+            "SSTF": 172,
+            "SCAN": 180,
+            "CSCAN": 375
+          },
+          "window_costs": {
+            "FCFS": 1124,
+            "SSTF": 172,
+            "SCAN": 180,
+            "CSCAN": 397
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 110,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 148,
+          "static_costs": {
+            "FCFS": 684,
+            "SSTF": 148,
+            "SCAN": 354,
+            "CSCAN": 381
+          },
+          "window_costs": {
+            "FCFS": 684,
+            "SSTF": 148,
+            "SCAN": 354,
+            "CSCAN": 396
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 120,
+          "chosen_alg": "SSTF",
+          "confidence": 0.75,
+          "seek_cost": 315,
+          "static_costs": {
+            "FCFS": 578,
+            "SSTF": 315,
+            "SCAN": 177,
+            "CSCAN": 388
+          },
+          "window_costs": {
+            "FCFS": 560,
+            "SSTF": 315,
+            "SCAN": 206,
+            "CSCAN": 393
+          },
+          "oracle_best_alg": "SCAN",
+          "correct": false
+        },
+        {
+          "step": 130,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 193,
+          "static_costs": {
+            "FCFS": 887,
+            "SSTF": 193,
+            "SCAN": 195,
+            "CSCAN": 329
+          },
+          "window_costs": {
+            "FCFS": 896,
+            "SSTF": 193,
+            "SCAN": 195,
+            "CSCAN": 394
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 140,
+          "chosen_alg": "SSTF",
+          "confidence": 0.6666666666666666,
+          "seek_cost": 201,
+          "static_costs": {
+            "FCFS": 682,
+            "SSTF": 201,
+            "SCAN": 392,
+            "CSCAN": 389
+          },
+          "window_costs": {
+            "FCFS": 567,
+            "SSTF": 201,
+            "SCAN": 392,
+            "CSCAN": 394
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 150,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 172,
+          "static_costs": {
+            "FCFS": 618,
+            "SSTF": 172,
+            "SCAN": 169,
+            "CSCAN": 169
+          },
+          "window_costs": {
+            "FCFS": 610,
+            "SSTF": 172,
+            "SCAN": 174,
+            "CSCAN": 370
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 160,
+          "chosen_alg": "SSTF",
+          "confidence": 0.75,
+          "seek_cost": 341,
+          "static_costs": {
+            "FCFS": 1075,
+            "SSTF": 341,
+            "SCAN": 227,
+            "CSCAN": 316
+          },
+          "window_costs": {
+            "FCFS": 1075,
+            "SSTF": 341,
+            "SCAN": 371,
+            "CSCAN": 386
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 170,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 147,
+          "static_costs": {
+            "FCFS": 406,
+            "SSTF": 147,
+            "SCAN": 148,
+            "CSCAN": 393
+          },
+          "window_costs": {
+            "FCFS": 450,
+            "SSTF": 147,
+            "SCAN": 159,
+            "CSCAN": 354
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 180,
+          "chosen_alg": "SSTF",
+          "confidence": 0.75,
+          "seek_cost": 308,
+          "static_costs": {
+            "FCFS": 717,
+            "SSTF": 308,
+            "SCAN": 247,
+            "CSCAN": 371
+          },
+          "window_costs": {
+            "FCFS": 646,
+            "SSTF": 308,
+            "SCAN": 350,
+            "CSCAN": 370
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 190,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 150,
+          "static_costs": {
+            "FCFS": 685,
+            "SSTF": 150,
+            "SCAN": 150,
+            "CSCAN": 367
+          },
+          "window_costs": {
+            "FCFS": 555,
+            "SSTF": 150,
+            "SCAN": 150,
+            "CSCAN": 150
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        }
+      ],
+      "confidence_analysis": {
+        "window_count": 20,
+        "accuracy": 0.95,
+        "mean_confidence_correct": 0.8947368421052632,
+        "mean_confidence_incorrect": 0.75,
+        "confidence_gap": 0.14473684210526316,
+        "brier_score": 0.047767857142857154,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.6,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.8,
+            "count": 6,
+            "accuracy": 0.8333333333333334,
+            "mean_confidence": 0.736111111111111
+          },
+          {
+            "lower": 0.8,
+            "upper": 1.0,
+            "count": 14,
+            "accuracy": 1.0,
+            "mean_confidence": 0.9523809523809524
+          }
+        ]
+      }
+    },
+    "bursty": {
+      "static_seeks": {
+        "FCFS": 14430,
+        "SSTF": 3519,
+        "SCAN": 5280,
+        "CSCAN": 7130
+      },
+      "learned_seek": 3519,
+      "history": [
+        {
+          "step": 0,
+          "chosen_alg": "SSTF",
+          "confidence": 0.75,
+          "seek_cost": 193,
+          "static_costs": {
+            "FCFS": 700,
+            "SSTF": 193,
+            "SCAN": 331,
+            "CSCAN": 373
+          },
+          "window_costs": {
+            "FCFS": 700,
+            "SSTF": 193,
+            "SCAN": 331,
+            "CSCAN": 373
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 10,
+          "chosen_alg": "SSTF",
+          "confidence": 0.75,
+          "seek_cost": 179,
+          "static_costs": {
+            "FCFS": 930,
+            "SSTF": 179,
+            "SCAN": 365,
+            "CSCAN": 393
+          },
+          "window_costs": {
+            "FCFS": 865,
+            "SSTF": 179,
+            "SCAN": 205,
+            "CSCAN": 327
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 20,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 165,
+          "static_costs": {
+            "FCFS": 471,
+            "SSTF": 165,
+            "SCAN": 165,
+            "CSCAN": 395
+          },
+          "window_costs": {
+            "FCFS": 469,
+            "SSTF": 165,
+            "SCAN": 165,
+            "CSCAN": 165
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 30,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 207,
+          "static_costs": {
+            "FCFS": 925,
+            "SSTF": 207,
+            "SCAN": 205,
+            "CSCAN": 397
+          },
+          "window_costs": {
+            "FCFS": 1079,
+            "SSTF": 207,
+            "SCAN": 205,
+            "CSCAN": 393
+          },
+          "oracle_best_alg": "SCAN",
+          "correct": false
+        },
+        {
+          "step": 40,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 169,
+          "static_costs": {
+            "FCFS": 890,
+            "SSTF": 169,
+            "SCAN": 169,
+            "CSCAN": 396
+          },
+          "window_costs": {
+            "FCFS": 968,
+            "SSTF": 169,
+            "SCAN": 169,
+            "CSCAN": 169
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 50,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 161,
+          "static_costs": {
+            "FCFS": 781,
+            "SSTF": 161,
+            "SCAN": 197,
+            "CSCAN": 167
+          },
+          "window_costs": {
+            "FCFS": 784,
+            "SSTF": 161,
+            "SCAN": 197,
+            "CSCAN": 384
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 60,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 169,
+          "static_costs": {
+            "FCFS": 555,
+            "SSTF": 169,
+            "SCAN": 360,
+            "CSCAN": 391
+          },
+          "window_costs": {
+            "FCFS": 574,
+            "SSTF": 169,
+            "SCAN": 360,
+            "CSCAN": 397
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 70,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 168,
+          "static_costs": {
+            "FCFS": 605,
+            "SSTF": 168,
+            "SCAN": 363,
+            "CSCAN": 323
+          },
+          "window_costs": {
+            "FCFS": 698,
+            "SSTF": 168,
+            "SCAN": 196,
+            "CSCAN": 395
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 80,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 176,
+          "static_costs": {
+            "FCFS": 967,
+            "SSTF": 176,
+            "SCAN": 366,
+            "CSCAN": 397
+          },
+          "window_costs": {
+            "FCFS": 903,
+            "SSTF": 176,
+            "SCAN": 366,
+            "CSCAN": 396
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 90,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 175,
+          "static_costs": {
+            "FCFS": 773,
+            "SSTF": 175,
+            "SCAN": 369,
+            "CSCAN": 391
+          },
+          "window_costs": {
+            "FCFS": 692,
+            "SSTF": 175,
+            "SCAN": 195,
+            "CSCAN": 392
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 100,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 175,
+          "static_costs": {
+            "FCFS": 619,
+            "SSTF": 175,
+            "SCAN": 373,
+            "CSCAN": 318
+          },
+          "window_costs": {
+            "FCFS": 622,
+            "SSTF": 175,
+            "SCAN": 373,
+            "CSCAN": 395
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 110,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 172,
+          "static_costs": {
+            "FCFS": 888,
+            "SSTF": 172,
+            "SCAN": 166,
+            "CSCAN": 166
+          },
+          "window_costs": {
+            "FCFS": 965,
+            "SSTF": 172,
+            "SCAN": 204,
+            "CSCAN": 392
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 120,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 167,
+          "static_costs": {
+            "FCFS": 929,
+            "SSTF": 167,
+            "SCAN": 200,
+            "CSCAN": 331
+          },
+          "window_costs": {
+            "FCFS": 938,
+            "SSTF": 167,
+            "SCAN": 167,
+            "CSCAN": 167
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 130,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 169,
+          "static_costs": {
+            "FCFS": 669,
+            "SSTF": 169,
+            "SCAN": 360,
+            "CSCAN": 384
+          },
+          "window_costs": {
+            "FCFS": 822,
+            "SSTF": 169,
+            "SCAN": 203,
+            "CSCAN": 396
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 140,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 171,
+          "static_costs": {
+            "FCFS": 662,
+            "SSTF": 171,
+            "SCAN": 171,
+            "CSCAN": 393
+          },
+          "window_costs": {
+            "FCFS": 825,
+            "SSTF": 171,
+            "SCAN": 171,
+            "CSCAN": 171
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 150,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 180,
+          "static_costs": {
+            "FCFS": 550,
+            "SSTF": 180,
+            "SCAN": 202,
+            "CSCAN": 392
+          },
+          "window_costs": {
+            "FCFS": 554,
+            "SSTF": 180,
+            "SCAN": 202,
+            "CSCAN": 397
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 160,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 177,
+          "static_costs": {
+            "FCFS": 631,
+            "SSTF": 177,
+            "SCAN": 177,
+            "CSCAN": 335
+          },
+          "window_costs": {
+            "FCFS": 645,
+            "SSTF": 177,
+            "SCAN": 177,
+            "CSCAN": 177
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 170,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 178,
+          "static_costs": {
+            "FCFS": 665,
+            "SSTF": 178,
+            "SCAN": 192,
+            "CSCAN": 397
+          },
+          "window_costs": {
+            "FCFS": 671,
+            "SSTF": 178,
+            "SCAN": 192,
+            "CSCAN": 318
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 180,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 187,
+          "static_costs": {
+            "FCFS": 558,
+            "SSTF": 187,
+            "SCAN": 371,
+            "CSCAN": 397
+          },
+          "window_costs": {
+            "FCFS": 547,
+            "SSTF": 187,
+            "SCAN": 371,
+            "CSCAN": 397
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 190,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 181,
+          "static_costs": {
+            "FCFS": 662,
+            "SSTF": 181,
+            "SCAN": 178,
+            "CSCAN": 394
+          },
+          "window_costs": {
+            "FCFS": 818,
+            "SSTF": 181,
+            "SCAN": 205,
+            "CSCAN": 396
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        }
+      ],
+      "confidence_analysis": {
+        "window_count": 20,
+        "accuracy": 0.95,
+        "mean_confidence_correct": 0.931077694235589,
+        "mean_confidence_incorrect": 0.9523809523809523,
+        "confidence_gap": -0.02130325814536338,
+        "brier_score": 0.05352891156462584,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.6,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.8,
+            "count": 2,
+            "accuracy": 1.0,
+            "mean_confidence": 0.75
+          },
+          {
+            "lower": 0.8,
+            "upper": 1.0,
+            "count": 18,
+            "accuracy": 0.9444444444444444,
+            "mean_confidence": 0.9523809523809523
+          }
+        ]
+      }
+    },
+    "shifting": {
+      "static_seeks": {
+        "FCFS": 7768,
+        "SSTF": 2355,
+        "SCAN": 3129,
+        "CSCAN": 4502
+      },
+      "learned_seek": 2355,
+      "history": [
+        {
+          "step": 0,
+          "chosen_alg": "FCFS",
+          "confidence": 0.5454545454545454,
+          "seek_cost": 67,
+          "static_costs": {
+            "FCFS": 67,
+            "SSTF": 40,
+            "SCAN": 338,
+            "CSCAN": 385
+          },
+          "window_costs": {
+            "FCFS": 67,
+            "SSTF": 40,
+            "SCAN": 338,
+            "CSCAN": 385
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": false
+        },
+        {
+          "step": 10,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 57,
+            "SCAN": 57,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 20,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 30,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 40,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 50,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 60,
+          "chosen_alg": "SSTF",
+          "confidence": 0.6666666666666666,
+          "seek_cost": 209,
+          "static_costs": {
+            "FCFS": 224,
+            "SSTF": 209,
+            "SCAN": 209,
+            "CSCAN": 228
+          },
+          "window_costs": {
+            "FCFS": 224,
+            "SSTF": 209,
+            "SCAN": 209,
+            "CSCAN": 228
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 70,
+          "chosen_alg": "SSTF",
+          "confidence": 0.5555555555555556,
+          "seek_cost": 45,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 45,
+            "SCAN": 45,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 45,
+            "SSTF": 45,
+            "SCAN": 45,
+            "CSCAN": 45
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": false
+        },
+        {
+          "step": 80,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 90,
+          "chosen_alg": "FCFS",
+          "confidence": 1.0,
+          "seek_cost": 30,
+          "static_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "window_costs": {
+            "FCFS": 30,
+            "SSTF": 30,
+            "SCAN": 30,
+            "CSCAN": 30
+          },
+          "oracle_best_alg": "FCFS",
+          "correct": true
+        },
+        {
+          "step": 100,
+          "chosen_alg": "SSTF",
+          "confidence": 0.75,
+          "seek_cost": 256,
+          "static_costs": {
+            "FCFS": 570,
+            "SSTF": 256,
+            "SCAN": 273,
+            "CSCAN": 391
+          },
+          "window_costs": {
+            "FCFS": 570,
+            "SSTF": 256,
+            "SCAN": 273,
+            "CSCAN": 391
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 110,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 173,
+          "static_costs": {
+            "FCFS": 813,
+            "SSTF": 173,
+            "SCAN": 364,
+            "CSCAN": 390
+          },
+          "window_costs": {
+            "FCFS": 971,
+            "SSTF": 173,
+            "SCAN": 197,
+            "CSCAN": 392
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 120,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 169,
+          "static_costs": {
+            "FCFS": 528,
+            "SSTF": 169,
+            "SCAN": 169,
+            "CSCAN": 329
+          },
+          "window_costs": {
+            "FCFS": 690,
+            "SSTF": 169,
+            "SCAN": 169,
+            "CSCAN": 169
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 130,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 174,
+          "static_costs": {
+            "FCFS": 687,
+            "SSTF": 174,
+            "SCAN": 202,
+            "CSCAN": 397
+          },
+          "window_costs": {
+            "FCFS": 846,
+            "SSTF": 174,
+            "SCAN": 202,
+            "CSCAN": 397
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 140,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 175,
+          "static_costs": {
+            "FCFS": 807,
+            "SSTF": 175,
+            "SCAN": 175,
+            "CSCAN": 397
+          },
+          "window_costs": {
+            "FCFS": 981,
+            "SSTF": 175,
+            "SCAN": 175,
+            "CSCAN": 175
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 150,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 174,
+          "static_costs": {
+            "FCFS": 520,
+            "SSTF": 174,
+            "SCAN": 196,
+            "CSCAN": 395
+          },
+          "window_costs": {
+            "FCFS": 522,
+            "SSTF": 174,
+            "SCAN": 196,
+            "CSCAN": 395
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 160,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 190,
+          "static_costs": {
+            "FCFS": 1085,
+            "SSTF": 190,
+            "SCAN": 373,
+            "CSCAN": 389
+          },
+          "window_costs": {
+            "FCFS": 1087,
+            "SSTF": 190,
+            "SCAN": 373,
+            "CSCAN": 391
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 170,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 170,
+          "static_costs": {
+            "FCFS": 561,
+            "SSTF": 170,
+            "SCAN": 174,
+            "CSCAN": 174
+          },
+          "window_costs": {
+            "FCFS": 506,
+            "SSTF": 170,
+            "SCAN": 196,
+            "CSCAN": 395
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 180,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 174,
+          "static_costs": {
+            "FCFS": 787,
+            "SSTF": 174,
+            "SCAN": 200,
+            "CSCAN": 395
+          },
+          "window_costs": {
+            "FCFS": 787,
+            "SSTF": 174,
+            "SCAN": 367,
+            "CSCAN": 397
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        },
+        {
+          "step": 190,
+          "chosen_alg": "SSTF",
+          "confidence": 0.9523809523809523,
+          "seek_cost": 169,
+          "static_costs": {
+            "FCFS": 879,
+            "SSTF": 169,
+            "SCAN": 174,
+            "CSCAN": 392
+          },
+          "window_costs": {
+            "FCFS": 960,
+            "SSTF": 169,
+            "SCAN": 189,
+            "CSCAN": 391
+          },
+          "oracle_best_alg": "SSTF",
+          "correct": true
+        }
+      ],
+      "confidence_analysis": {
+        "window_count": 20,
+        "accuracy": 0.9,
+        "mean_confidence_correct": 0.9437830687830687,
+        "mean_confidence_incorrect": 0.5505050505050505,
+        "confidence_gap": 0.3932780182780182,
+        "brier_score": 0.04000909554210421,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.6,
+            "count": 2,
+            "accuracy": 0.0,
+            "mean_confidence": 0.5505050505050505
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.8,
+            "count": 2,
+            "accuracy": 1.0,
+            "mean_confidence": 0.7083333333333333
+          },
+          {
+            "lower": 0.8,
+            "upper": 1.0,
+            "count": 16,
+            "accuracy": 1.0,
+            "mean_confidence": 0.9732142857142856
+          }
+        ]
+      },
+      "phase_seeks": {
+        "before_shift": {
+          "window_count": 10,
+          "static_seeks": {
+            "FCFS": 531,
+            "SSTF": 531,
+            "SCAN": 829,
+            "CSCAN": 853
+          },
+          "learned_seek": 531,
+          "selector_accuracy": 0.8
+        },
+        "after_shift": {
+          "window_count": 10,
+          "static_seeks": {
+            "FCFS": 7237,
+            "SSTF": 1824,
+            "SCAN": 2300,
+            "CSCAN": 3649
+          },
+          "learned_seek": 1824,
+          "selector_accuracy": 1.0
+        }
+      }
+    }
+  }
 }

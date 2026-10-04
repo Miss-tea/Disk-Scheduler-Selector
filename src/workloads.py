@@ -8,7 +8,7 @@ def generate_sequential_workload(length=50, total_tracks=200, start=10, stride=3
 def generate_random_workload(length=50, total_tracks=200, seed=None):
     if seed is not None:
         np.random.seed(seed)
-    return list(np.random.randint(0, total_tracks, size=length))
+    return [int(request) for request in np.random.randint(0, total_tracks, size=length)]
 
 
 def generate_bursty_workload(length=50, total_tracks=200, seed=None):

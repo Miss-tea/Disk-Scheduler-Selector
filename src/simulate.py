@@ -14,25 +14,27 @@ def run_shifting_experiment(trace, window_size=10, total_tracks=200):
 
     history = []
 
-    for i in range(0, len(trace) - window_size, window_size):
+    for i in range(0, len(trace), window_size):
         window = trace[i : i + window_size]
+        alg_map = {"FCFS": fcfs, "SSTF": sstf, "SCAN": scan, "CSCAN": cscan}
+        static_window_costs = {}
 
-        for alg, fn in [
-            ("FCFS", fcfs),
-            ("SSTF", sstf),
-            ("SCAN", scan),
-            ("CSCAN", cscan),
-        ]:
-            seek, _ = fn(heads_static[alg], window, total_tracks)
+        for alg, fn in alg_map.items():
+            seek, path = fn(heads_static[alg], window, total_tracks)
             total_seeks_static[alg] += seek
-            heads_static[alg] = window[-1]
+            heads_static[alg] = path[-1]
+            static_window_costs[alg] = seek
 
         chosen_alg, confidence = selector.predict(window, head_learned, total_tracks)
-        alg_map = {"FCFS": fcfs, "SSTF": sstf, "SCAN": scan, "CSCAN": cscan}
+        window_costs = {
+            alg: fn(head_learned, window, total_tracks)[0]
+            for alg, fn in alg_map.items()
+        }
+        oracle_best_alg = min(window_costs, key=window_costs.get)
 
-        seek, _ = alg_map[chosen_alg](head_learned, window, total_tracks)
+        seek, path = alg_map[chosen_alg](head_learned, window, total_tracks)
         total_seek_learned += seek
-        head_learned = window[-1]
+        head_learned = path[-1]
 
         history.append(
             {
@@ -40,6 +42,10 @@ def run_shifting_experiment(trace, window_size=10, total_tracks=200):
                 "chosen_alg": chosen_alg,
                 "confidence": confidence,
                 "seek_cost": seek,
+                "static_costs": static_window_costs,
+                "window_costs": window_costs,
+                "oracle_best_alg": oracle_best_alg,
+                "correct": chosen_alg == oracle_best_alg,
             }
         )
 
