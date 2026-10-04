@@ -1,0 +1,125 @@
+{
+  "static_seeks": {
+    "FCFS": 6889,
+    "SSTF": 2248,
+    "SCAN": 3562,
+    "CSCAN": 4336
+  },
+  "learned_seek": 2275,
+  "history": [
+    {
+      "step": 0,
+      "chosen_alg": "FCFS",
+      "confidence": 1.0,
+      "seek_cost": 67
+    },
+    {
+      "step": 10,
+      "chosen_alg": "FCFS",
+      "confidence": 1.0,
+      "seek_cost": 30
+    },
+    {
+      "step": 20,
+      "chosen_alg": "FCFS",
+      "confidence": 1.0,
+      "seek_cost": 30
+    },
+    {
+      "step": 30,
+      "chosen_alg": "FCFS",
+      "confidence": 1.0,
+      "seek_cost": 30
+    },
+    {
+      "step": 40,
+      "chosen_alg": "FCFS",
+      "confidence": 1.0,
+      "seek_cost": 30
+    },
+    {
+      "step": 50,
+      "chosen_alg": "FCFS",
+      "confidence": 1.0,
+      "seek_cost": 30
+    },
+    {
+      "step": 60,
+      "chosen_alg": "SSTF",
+      "confidence": 1.0,
+      "seek_cost": 209
+    },
+    {
+      "step": 70,
+      "chosen_alg": "FCFS",
+      "confidence": 1.0,
+      "seek_cost": 30
+    },
+    {
+      "step": 80,
+      "chosen_alg": "FCFS",
+      "confidence": 1.0,
+      "seek_cost": 30
+    },
+    {
+      "step": 90,
+      "chosen_alg": "FCFS",
+      "confidence": 1.0,
+      "seek_cost": 30
+    },
+    {
+      "step": 100,
+      "chosen_alg": "SSTF",
+      "confidence": 0.8427672955974843,
+      "seek_cost": 256
+    },
+    {
+      "step": 110,
+      "chosen_alg": "SSTF",
+      "confidence": 0.8427672955974843,
+      "seek_cost": 182
+    },
+    {
+      "step": 120,
+      "chosen_alg": "SSTF",
+      "confidence": 0.8427672955974843,
+      "seek_cost": 172
+    },
+    {
+      "step": 130,
+      "chosen_alg": "SSTF",
+      "confidence": 0.8427672955974843,
+      "seek_cost": 189
+    },
+    {
+      "step": 140,
+      "chosen_alg": "SSTF",
+      "confidence": 0.8427672955974843,
+      "seek_cost": 169
+    },
+    {
+      "step": 150,
+      "chosen_alg": "SSTF",
+      "confidence": 0.8427672955974843,
+      "seek_cost": 174
+    },
+    {
+      "step": 160,
+      "chosen_alg": "SSTF",
+      "confidence": 0.8427672955974843,
+      "seek_cost": 188
+    },
+    {
+      "step": 170,
+      "chosen_alg": "SSTF",
+      "confidence": 0.8427672955974843,
+      "seek_cost": 255
+    },
+    {
+      "step": 180,
+      "chosen_alg": "SSTF",
+      "confidence": 0.8427672955974843,
+      "seek_cost": 174
+    }
+  ]
+}
